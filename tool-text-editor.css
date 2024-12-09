@@ -1,0 +1,106 @@
+<style>
+/* Pembungkus spesifik untuk text editor */
+  #custom-text-editor-tool {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  #custom-text-editor-tool h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #custom-text-editor-tool textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+    margin-top: 10px;
+    resize: vertical;
+    height: 200px;
+  }
+
+  .custom-button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  #custom-text-editor-tool button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 120px;
+  }
+
+  #custom-text-editor-tool button:hover {
+    background-color: #45a049;
+  }
+
+  .custom-section {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #f9f9f9;
+  }
+
+  .custom-section h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+
+  .custom-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .custom-input-group input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .custom-input-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .highlight {
+    background-color: yellow;
+    color: black;
+  }
+
+  #custom-textPreview {
+    white-space: pre-wrap;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    min-height: 100px;
+  }
+
+  @media (max-width: 768px) {
+    #custom-text-editor-tool button {
+      padding: 8px 16px;
+      font-size: 14px;
+      min-width: 100px;
+    }
+  }
+</style>
