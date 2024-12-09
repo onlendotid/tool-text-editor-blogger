@@ -1,0 +1,46 @@
+<div id="custom-text-editor-tool">
+  <h2>Text Editor Tool</h2>
+  <textarea id="inputText" rows="10"></textarea>
+  
+  <div class="custom-button-group">
+    <button class="undo-btn" onclick="undo()">Undo</button>
+    <button class="redo-btn" onclick="redo()">Redo</button>
+    <button class="clear-btn" onclick="clearText()">Clear</button>
+  </div>
+
+  <!--Kotak Search-->
+  <div class="custom-section">
+    <h3>Pencarian Kata</h3>
+    <div class="custom-input-group">
+      <input id="searchTerm" type="text" />
+      <button class="custom-search-btn" onclick="searchText()">Search</button>
+    </div>
+    <div class="custom-search-result" id="searchResult"></div>
+  </div>
+
+  <!--Kotak Count-->
+  <div class="custom-section">
+    <h3>Hitung Kata Kunci</h3>
+    <div class="custom-input-group">
+      <input id="countTerm" type="text" />
+      <button class="custom-count-btn" onclick="countKeyword()">Count</button>
+    </div>
+  </div>
+
+  <!--Kotak Replace-->
+  <div class="custom-section">
+    <h3>Ganti Kata</h3>
+    <div class="custom-input-group">
+      <input id="replaceOld" type="text" />
+      <input id="replaceNew" type="text" />
+      <button class="custom-replace-btn" onclick="replaceText()">Replace</button>
+    </div>
+  </div>
+
+  <div class="custom-word-count">
+    <strong>Word Count: </strong><span id="wordCount">0</span>
+  </div>
+
+  <!--Output Preview-->
+  <div id="custom-textPreview"></div>
+</div>
